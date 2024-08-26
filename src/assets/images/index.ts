@@ -1,0 +1,18 @@
+export const IMAGES = {
+    CardLogo :  require('./card-logo.png'),
+    Arrow :  require('./arrow.png'),
+    Background :  require('./bg.jpg'),
+    Logo :  require('./logo.png'),
+    Menu :  require('./menu.png'),
+    Start :  require('./start.png'),
+    Dice1 :  require('./dice/1.png'),
+    Dice2 :  require('./dice/2.png'),
+    Dice3 :  require('./dice/3.png'),
+    Dice4 :  require('./dice/4.png'),
+    Dice5 :  require('./dice/5.png'),
+    Dice6 :  require('./dice/6.png'),
+    RedPile :  require('./piles/red.png'),
+    GreenPile :  require('./piles/green.png'),
+    BluePile :  require('./piles/blue.png'),
+    YellowPile :  require('./piles/yellow.png'),
+}
