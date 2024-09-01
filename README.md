@@ -17,13 +17,16 @@ A fully functional clone of the classic Ludo game, built with React Native. Chal
 
 ## Screenshots
 
-![Screenshot-1](https://github.com/user-attachments/assets/c11e7a78-f65b-4078-8e7b-4248771ee312)
-![Screenshot-2](https://github.com/user-attachments/assets/bc8981c0-9723-4e21-b768-aea5fa1f6ae8)
-![Screenshot-3](https://github.com/user-attachments/assets/ca8dd864-a6da-46c5-bbcf-c695998dbf0a)
+<img src="https://github.com/user-attachments/assets/c11e7a78-f65b-4078-8e7b-4248771ee312" alt="Screenshot-1" width="300" />
+<img src="https://github.com/user-attachments/assets/bc8981c0-9723-4e21-b768-aea5fa1f6ae8" alt="Screenshot-2" width="300" />
+<img src="https://github.com/user-attachments/assets/ca8dd864-a6da-46c5-bbcf-c695998dbf0a" alt="Screenshot-3" width="300" />
 
 ## Demo Video
 
-![Ludo Game Demo]((https://github.com/user-attachments/assets/5ff050c2-5b94-4ca6-9d6b-e4a46b2e4976))
+<video width="640" height="360" controls>
+  <source src="https://github.com/user-attachments/assets/5ff050c2-5b94-4ca6-9d6b-e4a46b2e4976" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Installation
 
