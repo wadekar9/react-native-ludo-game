@@ -54,15 +54,6 @@ const Pile: React.FC<PileProp> = ({ color, player, cell, pieceId, onPress }) => 
         })
     }, [rotation])
 
-    console.log("============================================================");
-    console.log("CONDITION",!(cell ? isCellEnabled && isForwardable() : isPileEnabled))
-    console.log("isPileEnabled",isPileEnabled)
-    console.log("isForwardable",isForwardable())
-    console.log("isCellEnabled",isCellEnabled)
-    console.log("cell",cell)
-    console.log("player",player)
-    console.log("============================================================");
-
     return (
         <TouchableOpacity
             style={styles.container}
