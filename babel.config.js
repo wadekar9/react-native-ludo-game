@@ -10,7 +10,10 @@ module.exports = {
           '$constants': './src/constants',
           '$components': './src/components',
           '$helpers': './src/helpers',
-          '$screens': './src/screens'
+          '$screens': './src/screens',
+          '$redux': './src/redux',
+          '$hooks': './src/hooks',
+          '$navigation': './src/navigation',
         },
       },
     ],

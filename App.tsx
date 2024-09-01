@@ -1,10 +1,16 @@
-import { View, Text } from 'react-native'
 import React from 'react'
-import LudoBoardScreen from '$screens/LudoBoardScreen'
+import { Provider } from 'react-redux';
+import { persistor, store } from '$redux/store';
+import { PersistGate } from 'redux-persist/integration/react';
+import RootNavigator from '$navigation/RootNavigator';
 
 const App = () => {
   return (
-    <LudoBoardScreen />
+    <Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}>
+        <RootNavigator />
+      </PersistGate>
+    </Provider>
   )
 }
 
