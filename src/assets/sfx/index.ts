@@ -5,13 +5,14 @@ import { default as GameStart } from './game_start.mp3';
 import { default as Girl1 } from './girl1.mp3';
 import { default as Girl2 } from './girl2.mp3';
 import { default as Girl3 } from './girl3.mp3';
+import { default as Girl4 } from './girl4.mp3';
 import { default as Home } from './home.mp3';
 import { default as HomeWin } from './home_win.mp3';
 import { default as UI } from './ui.mp3';
 import { default as SafeSpot } from './safe_spot.mp3';
 import { default as PileMove } from './pile_move.mp3';
 
-export const Sounds = {
+export const SOUNDS = {
     Cheer,
     Collide,
     DiceRoll,
@@ -19,6 +20,7 @@ export const Sounds = {
     Girl1,
     Girl2,
     Girl3,
+    Girl4,
     Home,
     HomeWin,
     UI,
